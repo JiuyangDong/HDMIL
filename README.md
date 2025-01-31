@@ -18,12 +18,12 @@ python run.py --pretrain ResNet50_ImageNet --dataset Camelyon16 --gpu_id 0 --lr 
 
 
 ### for Multiple Classification Tasks
+#### step1: DMIN
 ```shell
-# step1: DMIN
 python run.py --pretrain ResNet50_ImageNet --dataset TCGA-RCC --gpu_id 0 --lr 3e-4 --fold 10 \
     --label_frac 1.00 --degree 12 --init_type xaiver --model v4 --mask_ratio 0.1
 ```
-# step2: LIPN
+#### step2: LIPN
 ```shell
 python run.py --pretrain ResNet50_ImageNet --dataset TCGA-RCC --gpu_id 0 --lr 1e-4 --fold 10 \
     --label_frac 1.00 --init_type xaiver --model v5  \
