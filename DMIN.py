@@ -67,8 +67,8 @@ class DMINMIL:
         self.l2_loss = torch.nn.MSELoss(reduction='mean')
 
         self.counter = 0
-        self.patience = 0 # 20
-        self.stop_epoch = 0 # 50
+        self.patience = 20
+        self.stop_epoch = 50
         self.best_loss = np.Inf
         self.flag = 1
         self.ckpt_name = os.path.join(self.args.ckpt_dir, 'best_epoch.pth')
