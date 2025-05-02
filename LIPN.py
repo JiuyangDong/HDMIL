@@ -89,7 +89,7 @@ class LIPNMIL:
         self.l1_loss = torch.nn.L1Loss(reduction='mean')
 
         self.counter = 0
-        self.patience = 0 #5
+        self.patience = 5
         self.stop_epoch = 0
         self.best_loss = np.Inf
         self.flag = 1
