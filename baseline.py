@@ -18,7 +18,7 @@ def parse_args_and_save():
     parser.add_argument("--label_frac", type=float, default=1.0)
     parser.add_argument("--dataset", type=str, default="Camelyon16")
     parser.add_argument("--pretrain", type=str, default="ResNet50_ImageNet")
-    parser.add_argument("--n_epochs", type=int, default=1)
+    parser.add_argument("--n_epochs", type=int, default=200)
     parser.add_argument("--lr", type=float, default=2e-5)
     parser.add_argument("--wd", type=float, default=1e-5)
     parser.add_argument("--degree", type=int)
