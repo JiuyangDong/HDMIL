@@ -5,7 +5,7 @@ The official implementation of "Fast and Accurate Gigapixel Pathological Image C
 This repository corresponds to our earlier work published at **CVPR 2025**.  
 We have released a significantly extended and improved version in:
 "AHDMIL: Asymmetric Hierarchical Distillation Multi-Instance Learning for Fast and Accurate Whole-Slide Image Classiffcation"  
-💻 [Access the new GitHub repository]([https://github.com/yourname/ahdmil-journal](https://github.com/JiuyangDong/AHDMIL)
+💻 [Access the new GitHub repository](https://github.com/JiuyangDong/AHDMIL)
 
 We strongly recommend referring to the updated version for improved performance, additional experiments, and latest implementations.
 
