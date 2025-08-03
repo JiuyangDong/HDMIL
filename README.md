@@ -1,6 +1,17 @@
 # HDMIL: Fast and Accurate Gigapixel Pathological Image Classification with Hierarchical Distillation Multi-Instance Learning [CVPR2025]
 The official implementation of "Fast and Accurate Gigapixel Pathological Image Classification with Hierarchical Distillation Multi-Instance Learning".
 
+🚨 **Notice: Updated Version Available**
+This repository corresponds to our earlier work published at **CVPR 2025**.  
+We have released a significantly extended and improved version in:
+
+📄 **IJCV 2025**:  
+"AHDMIL: Asymmetric Hierarchical Distillation Multi-Instance Learning for Fast and Accurate Whole-Slide Image Classiffcation"  
+💻 [Access the new GitHub repository]([https://github.com/yourname/ahdmil-journal](https://github.com/JiuyangDong/AHDMIL)
+
+We strongly recommend referring to the updated version for improved performance, additional experiments, and latest implementations.
+
+
 ## How to use: training & validation & testing scripts
 
 ### for Camelyon16
