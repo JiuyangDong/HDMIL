@@ -1,7 +1,7 @@
 # HDMIL: Fast and Accurate Gigapixel Pathological Image Classification with Hierarchical Distillation Multi-Instance Learning [CVPR2025]
 The official implementation of "Fast and Accurate Gigapixel Pathological Image Classification with Hierarchical Distillation Multi-Instance Learning".
 
-## training & validation & testing
+## How to use: training & validation & testing scripts
 
 ### for Camelyon16
 #### step1: DMIN
@@ -58,6 +58,18 @@ python run.py --pretrain ResNet50_ImageNet --dataset TCGA-RCC --gpu_id 0 --lr 1e
     --pretrain_dir experiments/R10/Res50/init_xaiver/label_frac=1.0/model=v4_degree=12/lr=0.0003_maskratio=0.6/ckpts/ \
     --mask_ratio 0.6 --degree 12 --lwc mbv4t --distill_loss l1 --use_random_inst False
 ```
+## Reference
+If you found our work useful in your research, please consider citing our works(s) at:
+```
+@inproceedings{dong2025fast,
+  title={Fast and Accurate Gigapixel Pathological Image Classification with Hierarchical Distillation Multi-Instance Learning},
+  author={Dong, Jiuyang and Jiang, Junjun and Jiang, Kui and Li, Jiahan and Zhang, Yongbing},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={30818--30828},
+  year={2025}
+}
+```
+
 
 © 2025 Dong Jiuyang. This code is released under the GPLv3 license and is intended for non-commercial academic research only.
 
