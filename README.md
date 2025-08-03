@@ -79,6 +79,10 @@ If you found our work useful in your research, please consider citing our works(
 }
 ```
 
+🧱 **Built Upon**
+
+Parts of this codebase are adapted from [MobileNetv4-pytorch](https://github.com/d-li14/mobilenetv4.pytorch) and [CLAM](https://github.com/mahmoodlab/CLAM).  
+We thank the original authors for their contributions.
 
 © 2025 Dong Jiuyang. This code is released under the GPLv3 license and is intended for non-commercial academic research only.
 
