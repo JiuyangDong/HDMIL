@@ -11,8 +11,8 @@ We strongly recommend referring to the updated version for improved performance,
 
 
 ## How to use: training & validation & testing scripts
-
-### for Camelyon16
+ 
+### For the Camelyon16 dataset
 #### step1: DMIN
 ```shell
 python run.py --pretrain ResNet50_ImageNet --dataset Camelyon16 --gpu_id 0 --lr 3e-4 --fold 10 \
@@ -26,7 +26,7 @@ python run.py --pretrain ResNet50_ImageNet --dataset Camelyon16 --gpu_id 0 --lr 
     --mask_ratio 0.6  --degree 12 --lwc mbv4t --distill_loss l1 --use_random_inst False 
 ```
 
-### for TCGA-NSCLC
+### For the TCGA-NSCLC dataset
 #### step1: DMIN
 ```shell
 python run.py --pretrain ResNet50_ImageNet --dataset TCGA-NSCLC --gpu_id 0 --lr 3e-5 --fold 10 \
@@ -40,7 +40,7 @@ python run.py --pretrain ResNet50_ImageNet --dataset TCGA-NSCLC --gpu_id 0 --lr 
     --mask_ratio 0.7  --degree 16 --lwc mbv4t --distill_loss l1 --use_random_inst False 
 ```
 
-### for TCGA-BRCA
+### For the TCGA-BRCA dataset
 #### step1: DMIN
 ```shell
 python run.py --pretrain ResNet50_ImageNet --dataset TCGA-BRCA --gpu_id 0 --lr 3e-4 --fold 10 \
@@ -54,7 +54,7 @@ python run.py --pretrain ResNet50_ImageNet --dataset TCGA-BRCA --gpu_id 0 --lr 1
     --mask_ratio 0.7  --degree 12 --lwc mbv4t --distill_loss l1 --use_random_inst False 
 ```
 
-### for TCGA-RCC
+### For the TCGA-RCC dataset
 #### step1: DMIN
 ```shell
 python run.py --pretrain ResNet50_ImageNet --dataset TCGA-RCC --gpu_id 0 --lr 3e-4 --fold 10 \
